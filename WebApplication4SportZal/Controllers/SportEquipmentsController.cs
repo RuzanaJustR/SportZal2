@@ -4,7 +4,7 @@ using WebApplication4SportZal.Models;
 namespace WebApplication4SportZal.Controllers
 {
         [ApiController]
-        [Route("/sportEquipments")]
+        [Route("/SportEquipments")]
     public class SportEquipmentsController : ControllerBase
     { 
             [HttpGet]
