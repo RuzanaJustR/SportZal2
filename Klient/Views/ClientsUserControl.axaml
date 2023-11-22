@@ -1,9 +1,12 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:Klient.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Klient.Views.ClientsUserControl">
+             x:Class="Klient.Views.ClientsUserControl"
+			 x:DataType="vm:ClientsUserControlViewModel">
+			 
 	<DockPanel>
 		<StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
 			<Button Command="{Binding Update}" Content="Обновить"/>
@@ -14,7 +17,7 @@
 		<StackPanel DockPanel.Dock="Bottom" >
 			<TextBlock Text="{Binding Message}"/>
 		</StackPanel>
-		<DataGrid ItemsSource="{Binding Clients}" AutoGenerateColumns="True" SelectedItem="{Binding SelectedClient}">
+		<DataGrid  AutoGenerateColumns="True" SelectedItem="{Binding SelectedClient}">
 		</DataGrid>
 	</DockPanel>
 </UserControl>

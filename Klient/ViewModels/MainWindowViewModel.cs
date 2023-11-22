@@ -5,9 +5,9 @@ namespace Klient.ViewModels
     {
         public MainWindowViewModel()
         {
-            _ClientsUserControl = new ClientsUserControlViewModel();
+            _ClientsUserControl = new ClientsUserControl();
             _ClientsUserControl.DataContext = new ClientsUserControlViewModel();
         }
-        public ClientsUserControlViewModel _ClientsUserControl { get; set; }
+        public ClientsUserControl _ClientsUserControl { get; set; }
     }
 }
