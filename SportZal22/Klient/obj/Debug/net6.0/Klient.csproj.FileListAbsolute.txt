@@ -1,0 +1,7 @@
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Klient.csproj.AssemblyReference.cache
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Avalonia\Resources.Inputs.cache
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Avalonia\resources
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Klient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Klient.AssemblyInfoInputs.cache
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Klient.AssemblyInfo.cs
+C:\Users\student\Source\Repos\SportZal277\Klient\obj\Debug\net6.0\Klient.csproj.CoreCompileInputs.cache
